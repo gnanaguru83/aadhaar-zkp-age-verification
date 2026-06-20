@@ -1,0 +1,9 @@
+# Core ZKP demo has NO third-party dependencies (pure Python stdlib).
+# The packages below are only needed for the optional OCR path and tests.
+
+# OCR (optional - also requires the Tesseract engine installed on the system)
+Pillow>=10.0
+pytesseract>=0.3.10
+
+# Testing
+pytest>=8.0

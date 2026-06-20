@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Sensitive: never commit real ID images or PII
+images/
+!images/.gitkeep
+
+# Large binaries / installers / archives
+*.exe
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
